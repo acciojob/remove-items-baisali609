@@ -1,7 +1,7 @@
 //your JS code here. If required.
 document.querySelector("input").addEventListener("click", function () {
     const select = document.getElementById("colorSelect"); 
-    const index = select.index; 
+    const index = select.selectedIndex;
 
     select.remove(index); 
 
